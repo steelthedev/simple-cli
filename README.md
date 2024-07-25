@@ -16,7 +16,7 @@ Simple CLI App is a command-line application that performs basic arithmetic oper
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/steelthedev/simple-cli.git
-   cd my_cli_app
+   cd simple_cli_app
    ```
 
 2. **Build the project:**
@@ -28,7 +28,7 @@ Simple CLI App is a command-line application that performs basic arithmetic oper
 
 1. **Add two numbers:**
    ```bash
-   ./target/release/my_cli_app add --number_one 5 --number_two 3
+   ./target/release/simple_cli_app add --number_one 5 --number_two 3
    ```
    Output:
    ```
@@ -37,7 +37,7 @@ Simple CLI App is a command-line application that performs basic arithmetic oper
 
 2. **Subtract two numbers:**
    ```bash
-   ./target/release/my_cli_app subtract --number_one 5 --number_two 3
+   ./target/release/simple_cli_app subtract --number_one 5 --number_two 3
    ```
    Output:
    ```
@@ -47,17 +47,17 @@ Simple CLI App is a command-line application that performs basic arithmetic oper
 ## Code Structure
 
 - **`src/main.rs`**: Contains the main logic of the CLI application.
-- **`src/arithmetic/mod.rs`**: Contains the arithmetic operations.
+- **`src/arithmetic/`**: Contains the arithmetic operations.
 
 ## Example
 
 Here is an example of running the application:
 
 ```bash
-$ ./target/release/my_cli_app add --number_one 10 --number_two 5
+$ ./target/release/simple_cli_app add --number_one 10 --number_two 5
 The answer is 15
 
-$ ./target/release/my_cli_app subtract --number_one 10 --number_two 5
+$ ./target/release/simple_cli_app subtract --number_one 10 --number_two 5
 The answer is 5
 ```
 
