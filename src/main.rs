@@ -23,7 +23,7 @@ fn main() {
         println!("The answer is {:?}", answer )
      },
      Commands::Substract { number_one, number_two } => {
-        let answer = arithmetic::add::add_numbers(*number_one, *number_two);
+        let answer = arithmetic::subtract::subtract_numbers(*number_one, *number_two);
         println!("The answer is {:?}", answer );
      }
  }
